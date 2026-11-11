@@ -1,12 +1,6 @@
 
 # Albert Einstein — Tribute Page
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![No Bootstrap](https://img.shields.io/badge/Bootstrap-Not_Used-green)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
 ## 📌 Project Overview
 
 This project is a responsive and interactive tribute website dedicated to **Albert Einstein**, one of the most influential theoretical physicists in history.
@@ -96,8 +90,6 @@ WebDev-L2-TributePage/
 ├── script.js
 ├── README.md
 │
-├── images/
-│   └── Historical photographs
 │
 └── screenshots/
     ├── tribute-home.png
@@ -251,6 +243,3 @@ Bachelor of Computing Student
 
 Interested in Software Engineering, Web Development and modern technologies.
 
-## 📄 Project Purpose
-
-This project was created for educational and portfolio purposes as part of the OASIS INFOBYTE internship programme.
