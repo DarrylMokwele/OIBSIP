@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #303031;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 380px;
+    padding: 24px;
+    background: #000000;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.calculator-header {
+    margin-bottom: 20px;
+}
+
+.calculator-header h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.calculator-header p {
+    color: #94a3b8;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.screen {
+    background: #494f5f;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    min-height: 105px;
+    overflow: hidden;
+}
+
+#history {
+    color: #94a3b8;
+    min-height: 22px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+#display {
+    display: block;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 8px;
+    overflow-wrap: anywhere;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button {
+    min-width: 0;
+    min-height: 65px;
+    border: none;
+    border-radius: 12px;
+    background: #334155;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #475569;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 2px;
+}
+
+.operator {
+    background: #2563eb;
+}
+
+.operator:hover {
+    background: #1d4ed8;
+}
+
+.clear {
+    background: #ff0404;
+}
+
+.clear:hover {
+    background: #ff0404;
+}
+
+.equals {
+    background: #16a34a;
+    grid-row: span 2;
+}
+
+.equals:hover {
+    background: #15803d;
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        padding: 16px;
+    }
+
+    .buttons {
+        gap: 8px;
+    }
+
+    button {
+        min-height: 55px;
+    }
+
+    #display {
+        font-size: 30px;
+    }
+}
